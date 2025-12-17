@@ -39,7 +39,7 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroSplitKpi
           title="Discover Your Perfect Vehicle"
-          description="Premium automotive selection with expert service. Find luxury vehicles curated for discerning buyers."
+          description="Premium automotive selection with expert service. "
           tag="Premium Automotive"
           tagIcon={Sparkles}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1765985114198-kefvdcvs.jpg"
@@ -48,7 +48,7 @@ export default function LandingPage() {
           kpis={[
             { value: "500+", label: "Premium Vehicles" },
             { value: "15+", label: "Years Experience" },
-            { value: "98%", label: "Customer Satisfaction" }
+            { value: "9%", label: "Customer Satisfaction" }
           ]}
           buttons={[
             { text: "Browse Inventory", href: "#inventory" },
